@@ -1,0 +1,23 @@
+@media all and (max-width: 992px){    
+    div .left{
+        flex: 100%;
+        order:  1;
+    }
+
+    div article{
+        flex: 2;    
+    }
+
+    div .right{
+        flex: 1 
+    }
+    div footer{
+        order: 2;
+    }
+}
+
+@media all and (max-width: 768px){    
+    div article{
+        flex: 100%;
+    }
+}
